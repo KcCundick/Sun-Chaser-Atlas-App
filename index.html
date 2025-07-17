@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Chasers' Atlas App - Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f8ff; /* Light background */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #0056b3; /* A nice blue */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .download-button {
+            display: inline-block;
+            background-color: #28a745; /* Green for download */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .download-button:hover {
+            background-color: #218838;
+        }
+        .warning {
+            font-size: 0.9em;
+            color: #d32f2f; /* Red for warning */
+            margin-top: 30px;
+            border: 1px solid #d32f2f;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #ffebee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sun Chasers' Atlas!</h1>
+        <p>Your ultimate companion for planning and managing unforgettable vacations and excursions. Get ready to organize your dream trips with ease.</p>
+
+        <p>Click the button below to download the app directly to your Android device:</p>
+
+        <a href="app-release.apk" class="download-button" download>
+            Download Sun Chasers' Atlas (APK)
+        </a>
+
+        <div class="warning">
+            <strong>Important:</strong> To install the app, you may need to enable "Install unknown apps" or "Unknown sources" in your device's security settings.
+        </div>
+
+        <p style="margin-top: 30px; font-size: 0.9em; color: #666;">
+            Developed for Capstone Project.
+        </p>
+    </div>
+</body>
+</html>
